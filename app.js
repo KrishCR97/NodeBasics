@@ -9,3 +9,4 @@ function hello(){
     console.log("In hello function");
 }
 greeting(hello);
+module.exports = hello;
