@@ -1,3 +1,4 @@
+let greet = require("./greet");
 var num1 = 0;
 var num2 = 3;
 console.log(num1+num2);
@@ -10,3 +11,5 @@ function hello(){
 }
 greeting(hello);
 module.exports = hello;
+greet.englis();
+greet.spanis();
