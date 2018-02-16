@@ -17,3 +17,5 @@ console.log('Yeah it worked');
 function Emitter(){
 this.event = {};
 }
+var name = "Kishon";
+var interpolatedStrin = `Hello ${name}`
