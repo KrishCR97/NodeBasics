@@ -1,3 +1,6 @@
+//Unicode charater set means number representation of a character i.e.., e - 101
+//Character UTF-8 meaning bits representation of a character i.e.., e - 01100101
+//Buffers in node js can be used to convert the variable whihc contains data into specified charater set
 var obj = {
     greet : "Hello Kishon"
 }
