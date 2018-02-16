@@ -18,4 +18,13 @@ function Emitter(){
 this.event = {};
 }
 var name = "Kishon";
-var interpolatedStrin = `Hello ${name}`
+var interpolatedStrin = `Hello ${name}`;
+var objs = {
+    name : "Obj1",
+    fun1 : function(num){
+    console.log(`Hello ${ this.n1} ${num}`);
+    } 
+};
+//.apply and .call
+objs.fun1.call({n1 : 1},2);
+objs.fun1.apply({n1 : 3},[4]);
