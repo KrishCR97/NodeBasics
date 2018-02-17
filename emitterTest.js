@@ -12,3 +12,4 @@ emitter.prototype.emit = function(type){
 
 }
 module.exports = emitter;
+//Zlib is a duplex stream which is both readable and writable stream.
